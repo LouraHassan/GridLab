@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.grid-div{
+    display: grid;
+}
+div{
+}
+.div-1{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.div-2{
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+.div-1-1{
+    height: 50vh;
+    display: grid;
+    grid-template-areas: 'top-left top-left top-mid top-mid top-right'
+    'top-left top-left mid-mid bottom-right bottom-right '
+    'bottom-left  bottom-left mid-mid bottom-right bottom-right';
+    background-color: #FCF4D0;
+}
+.div-2-1{
+    height: 50vh;
+
+    display: grid;
+    grid-template-areas: 'top-left top-mid top-mid top-right top-right'
+    'bottom-left bottom-left  mid-mid top-right top-right'
+    'bottom-left  bottom-left mid-mid bottom-right bottom-right';
+    background-color: #FCF4D0;
+}
+.item1-1{
+grid-area: top-left;
+font-size: 8em;
+font-weight: bold;
+
+}
+.item2-1{
+    grid-area: top-mid;
+    font-size: 4em;
+    font-weight: bold;
+}
+.item3-1{
+    grid-area: top-right;
+    font-size: 4em;
+    font-weight: bold;
+}
+.item4-1{
+    grid-area: bottom-left;
+    font-size: 4em;
+    font-weight: bold;
+}
+.item5-1{
+    grid-area: mid-mid;
+    font-size: 4em;
+    font-weight: bold;
+}
+.item6-1{
+    grid-area: bottom-right;
+    font-size: 8em;
+font-weight: bold;
+}
+.item1-2{
+    grid-area: top-left;
+    font-size: 4em;
+    font-weight: bold;
+    }
+    .item2-2{
+        grid-area: top-mid;
+        font-size: 4em;
+    font-weight: bold;
+    }
+    .item3-2{
+        grid-area: top-right;
+        font-size: 4em;
+    font-weight: bold;
+    }
+    .item4-2{
+        grid-area: bottom-left;
+        font-size: 8em;
+font-weight: bold;
+    }
+    .item5-2{
+        grid-area: mid-mid;
+        font-size: 4em;
+    font-weight: bold;
+    }
+    .item6-2{
+        grid-area: bottom-right;
+        font-size: 4em;
+    font-weight: bold;
+    }
+.end-align{
+    display: grid;
+    justify-items: end;
+align-content: end;
+padding-right: 10px;
+border: 1px dotted black;
+
+}
+.green-div{
+    background-color: #CCDDBB;
+}
+.pink-div{
+    background-color: #F8D9C5;
+}
+.yellow-div{
+    background-color: #F7E9A0;
+}
+.blue-div{
+    background-color: #C6D8DA;
+}
+.lagre-size{
+    font-size: 8em;
+}
